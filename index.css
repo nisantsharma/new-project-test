@@ -23,8 +23,8 @@ body {
 }
 
 .text-section {
-    border: 2px solid white;
-    border-radius: 12px;
+    border: .125em solid white;
+    border-radius: .75em;
     height: 10rem;
     width: 100%;
     display: flex;
@@ -41,7 +41,7 @@ body {
 
 .details p {
     margin: 0;
-    letter-spacing: 2px;
+    letter-spacing: .125em;
 }
 
 .score {
@@ -53,7 +53,7 @@ body {
     height: 8.5rem;
     width: 9rem;
     background-color: white;
-    border-radius: 12px;
+    border-radius: .75em;
     margin-right: 1rem;
 }
 
@@ -63,7 +63,7 @@ body {
     height: 8.5rem;
     width: 9rem;
     background-color: white;
-    border-radius: 12px;
+    border-radius: .75em;
     margin-right: 1rem;
 }
 
@@ -74,10 +74,10 @@ body {
 
 .score p {
     font-size: 1rem;
-    letter-spacing: 2px;
+    letter-spacing: .125em;
     font-weight: bold;
     color: #656565;
-    margin-bottom: 5px;
+    margin-bottom: .315em;
 }
 
 .image-section {
@@ -90,7 +90,7 @@ body {
     height: 7rem;
     background-color: aqua;
     margin-right: 3rem;
-    border-radius: 13px;
+    border-radius: .8175em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -130,12 +130,12 @@ body {
     height: 2.4rem;
     color: white;
     border: 2px solid white;
-    border-radius: 7px;
+    border-radius: .45em;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    letter-spacing: 2px;
+    letter-spacing: .125em;
     margin-right: 1rem;
 }
 
@@ -149,8 +149,8 @@ body {
 .rule-details {
     width: 20rem;
     height: 23rem;
-    border: 5px solid white;
-    border-radius: 14px;
+    border: .315em solid white;
+    border-radius: .875em;
     background-color: #004429;
     color: white;
     position: relative;
@@ -176,7 +176,7 @@ body {
 }
 
 .close-button:hover {
-    border: 2px solid white;
+    border: .125em solid white;
     background-color: #dd0303;
 }
 
@@ -184,21 +184,21 @@ body {
 .rule-details p {
     text-align: center;
     font-size: 1.5rem;
-    letter-spacing: 3px;
+    letter-spacing: .187em;
     font-weight: 700;
 }
 
 .rule-details li {
-    margin-bottom: 7px;
+    margin-bottom: .435em;
     font-size: 0.9rem;
     list-style: none;
     padding-right: 2rem;
 }
 
 .rule-details li img {
-    width: 8px;
-    height: 8px;
-    margin-right: 3px;
+    width: .5em;
+    height: .5em;
+    margin-right: .1875em;
 }
 
 .win-loss {
@@ -213,7 +213,7 @@ body {
     height: 6rem;
     background-color: aqua;
     margin-right: 2rem;
-    border-radius: 12px;
+    border-radius: .75em;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,11 +306,11 @@ body {
     background-color: white;
     width: 11rem;
     height: 2.8rem;
-    border-radius: 12px;
+    border-radius: .75em;
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
+    position: relative;
     top: 37rem;
     cursor: pointer;
 }
@@ -319,5 +319,5 @@ body {
     background-color: #89C15E;
     color: white;
     border: 2px solid white;
-    border-radius: 13px;
+    border-radius: .8175em;
 }

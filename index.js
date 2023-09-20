@@ -85,17 +85,17 @@ function imageClick(item) {
 
 
     if (item.classList.contains('rock')) {
-        myResult.innerHTML = '<img src="rock.png" alt="rock-image" />'
+        myResult.innerHTML = '<img src="rock (1).png" alt="rock-image" />'
 
         if (computerSelected == 'rock') {
-            computerResult.innerHTML = '<img src="rock.png" alt="rock-image" />'
+            computerResult.innerHTML = '<img src="rock (1).png" alt="rock-image" />'
             mySelf.innerText = "TIE UP";
             opponent.style.display = 'none';
 
             replay.style.display = 'flex';
         }
         else if (computerSelected == 'paper') {
-            computerResult.innerHTML = '<img src="paper.png" alt="paper-image" />'
+            computerResult.innerHTML = '<img src="paper (1).png" alt="paper-image" />'
             mySelf.innerText = "YOU LOST";
             opponent.style.display = 'block';
 
@@ -107,7 +107,7 @@ function imageClick(item) {
 
         }
         else if (computerSelected == 'scissor') {
-            computerResult.innerHTML = '<img src="scissor.png" alt="scissor-image" />'
+            computerResult.innerHTML = '<img src="scissor (1).png" alt="scissor-image" />'
             mySelf.innerText = "YOU WIN";
             opponent.style.display = 'block';
 
@@ -119,10 +119,10 @@ function imageClick(item) {
         }
     }
     else if (item.classList.contains('paper')) {
-        myResult.innerHTML = '<img src="paper.png" alt="paper-image" />'
+        myResult.innerHTML = '<img src="paper (1).png" alt="paper-image" />'
 
         if (computerSelected == 'rock') {
-            computerResult.innerHTML = '<img src="rock.png" alt="rock-image" />'
+            computerResult.innerHTML = '<img src="rock (1).png" alt="rock-image" />'
             mySelf.innerText = "YOU WIN";
             opponent.style.display = 'block';
 
@@ -133,14 +133,14 @@ function imageClick(item) {
             localStorage.setItem('your-score', JSON.stringify(youScore));
         }
         else if (computerSelected == 'paper') {
-            computerResult.innerHTML = '<img src="paper.png" alt="paper-image" />'
+            computerResult.innerHTML = '<img src="paper (1).png" alt="paper-image" />'
             mySelf.innerText = "TIE UP"
             opponent.style.display = 'none';
 
             replay.style.display = 'flex';
         }
         else if (computerSelected == 'scissor') {
-            computerResult.innerHTML = '<img src="scissor.png" alt="scissor-image" />'
+            computerResult.innerHTML = '<img src="scissor (1).png" alt="scissor-image" />'
             mySelf.innerText = "YOU LOST";
             opponent.style.display = 'block';
 
@@ -152,10 +152,10 @@ function imageClick(item) {
         }
     }
     else if (item.classList.contains('scissor')) {
-        myResult.innerHTML = '<img src="scissor.png" alt="scissor-image" />'
+        myResult.innerHTML = '<img src="scissor (1).png" alt="scissor-image" />'
 
         if (computerSelected == 'rock') {
-            computerResult.innerHTML = '<img src="rock.png" alt="rock-image" />'
+            computerResult.innerHTML = '<img src="rock (1).png" alt="rock-image" />'
             mySelf.innerText = "YOU LOST";
             opponent.style.display = 'block';
 
@@ -166,7 +166,7 @@ function imageClick(item) {
             localStorage.setItem('computer-score', JSON.stringify(compScore));
         }
         else if (computerSelected == 'paper') {
-            computerResult.innerHTML = '<img src="paper.png" alt="paper-image" />'
+            computerResult.innerHTML = '<img src="paper (1).png" alt="paper-image" />'
             mySelf.innerText = "YOU WIN";
             opponent.style.display = 'block';
 
@@ -177,7 +177,7 @@ function imageClick(item) {
             localStorage.setItem('your-score', JSON.stringify(youScore));
         }
         else if (computerSelected == 'scissor') {
-            computerResult.innerHTML = '<img src="scissor.png" alt="scissor-image" />'
+            computerResult.innerHTML = '<img src="scissor (1).png" alt="scissor-image" />'
             mySelf.innerText = "TIE UP";
             opponent.style.display = 'none';
 
